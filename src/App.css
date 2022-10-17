@@ -1,38 +1,189 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height:auto;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 1em;
+    height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.displaymain {
+    display: flex;
+    border: 2px solid grey;
+    margin: 2px;
+    background-color:aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.displaymain div {
+    background-color: tomato;
+    width: 144px;
+    height: 144px;
+    margin: 12px;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.flexDirection {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    margin: 1em;
+    height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+    display:flex;
+    margin: 2px;
+    flex-direction: row;
+    background-color: aqua;
+    
+}
+.row div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    color: white;
+    font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row-reverse {
+    display:flex;
+    margin: 2px;
+    flex-direction: row-reverse;
+    background-color: aqua;
+    
+}
+.row-reverse div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    color: white;
+    font-weight: bold;
+}
+.column {
+    display:flex;
+    margin: 2px;
+    flex-direction: column;
+    background-color: aqua;
+    
+}
+.column div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    color: white;
+    font-weight: bold;
+}
+.column-reverse {
+    display:flex;
+    margin: 2px;
+    flex-direction: column-reverse;
+    background-color: aqua;
+    
+}
+.column-reverse div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 1em;
+    height: auto;
+}
+
+.flex-start {
+    display:flex;
+    margin: 2px;
+    justify-content: flex-start;
+    background-color: aqua;
+
+} 
+.maindiv {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.flex-end {
+    display:flex;
+    margin: 2px;
+    justify-content: flex-end;
+    background-color: aqua;
+
+}
+.center {
+    display:flex;
+    margin: 2px;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.space-between {
+    display:flex;
+    margin: 2px;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.space-around {
+    display:flex;
+    margin: 2px;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.space-evenly {
+    display:flex;
+    margin: 2px;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+.flexstart {
+    display:flex;
+    margin: 2px;
+    align-items: flex-start;
+    background-color: aqua;
+}
+.flexend {
+    display:flex;
+    margin: 2px;
+    align-items: flex-end;
+    background-color: aqua;
+}
+.Center {
+    display:flex;
+    margin: 2px;
+    align-items: center;
+    background-color: aqua;
+}
+.stretch {
+    display:flex;
+    margin: 2px;
+    align-items: stretch;
+    background-color: aqua;
+}
+.baseline {
+    display:flex;
+    margin: 2px;
+    align-items: baseline;
+    background-color: aqua;
 }
